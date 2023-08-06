@@ -15,7 +15,7 @@ std::string FormatMessage(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
     stringBuilder << "HWND Value:     ";
     stringBuilder << "0x" << std::hex
         << std::setfill('0') << std::setw(sizeof(size_t) * 2)
-        << hWnd << "\n";
+        << (size_t)hWnd << "\n";
 
     stringBuilder << "Code:           ";
 
