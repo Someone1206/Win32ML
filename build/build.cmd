@@ -1,0 +1,1 @@
+g++ app/src/*.cpp -o bin/Win32ML.exe -ggdb3 -Wall -Iapp/inc/

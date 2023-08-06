@@ -1,0 +1,8 @@
+.cache-tmp/
+__pycache__/
+bin/
+obj/
+*-tmp/
+*.tmp.*
+*.exe
+*.obj
